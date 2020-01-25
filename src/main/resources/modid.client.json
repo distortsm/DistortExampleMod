@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.distortsm.example.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ExampleClientMixin",
+    "ExampleMainMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
